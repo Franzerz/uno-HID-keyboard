@@ -22,7 +22,9 @@ The circuit is using a simple button configuration. The 10K resistors are used a
 ![Circuit.png](Images/Circuit.png)
 
 ## Flashing HID firmware with Flip
-<p align="center" style="color:red">Use genuine Arduino only since fake or clone integrated with CH340 chip which cannot be used for DFU purposes and not supported by this guide.
+<center><b>Use genuine Arduino only since fake or clone integrated with CH340 chip which cannot be used for DFU purposes and not supported by this guide.</b></center>
+
+<br>
 
 To install **HID firmware** connect your arduino to the PC. To get into **DFU** mode. **If you want make changes with your code, you can always change back to original firmware.**
 
@@ -39,6 +41,8 @@ The device should show up in device manager as **Atmega16u2**. If not or if you 
 C:\Program Files (x86)\Atmel\Flip 3.4.7\usb 
 ```
 right click the .inf file and click install.
+
+<br>
 
 Inside Flip, Click on the IC button and select **Atmega16u2**
 
